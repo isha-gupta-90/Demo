@@ -31,4 +31,8 @@ public class ApiResponse {
         this.rows = rows;
     }
 
+    @Override
+    public String toString() {
+        return "ApiResponse{" + "title='" + title + '\'' + ", rows=" + rows + '}';
+    }
 }
