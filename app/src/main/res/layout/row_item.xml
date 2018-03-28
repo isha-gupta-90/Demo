@@ -12,7 +12,6 @@
         android:layout_marginBottom="8dp"
         android:layout_marginStart="8dp"
         android:layout_marginTop="8dp"
-
         app:srcCompat="@android:drawable/btn_star" />
 
     <TextView
@@ -22,7 +21,6 @@
         android:layout_alignStart="@+id/descTv"
         android:layout_alignTop="@+id/imageView"
         android:layout_marginStart="13dp"
-        android:text="title gvhgfg"
         android:textSize="18sp" />
 
 
@@ -38,7 +36,6 @@
         android:layout_marginStart="8dp"
         android:layout_marginTop="8dp"
         android:layout_toEndOf="@+id/imageView"
-        android:text="descnbhnujkhuijhugyjhihujihbnionbninkjokknjkjoknmomnmomnmopjnj"
         android:textSize="18sp" />
 
 </RelativeLayout>
