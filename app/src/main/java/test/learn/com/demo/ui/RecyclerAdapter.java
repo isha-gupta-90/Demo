@@ -49,7 +49,7 @@ class RecyclerAdapter extends RecyclerView.Adapter<RecyclerAdapter.MyViewHolder>
                 imageUrl = appendHttps(imageUrl);
             }
             Picasso.with(holder.itemView.getContext()).load(imageUrl).noFade().fit().
-                    centerInside().placeholder(R.mipmap.ic_ph).
+            placeholder(R.mipmap.ic_ph).
                     error(android.R.drawable.ic_menu_info_details).into(holder.imageView);
         } else {
             holder.imageView.setImageDrawable(context.getResources().getDrawable(R.mipmap.ic_ph));
