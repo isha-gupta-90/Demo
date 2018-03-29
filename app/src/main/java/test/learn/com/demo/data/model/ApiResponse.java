@@ -6,6 +6,9 @@ import com.google.gson.annotations.SerializedName;
 
 import java.util.List;
 
+/**
+ * Response class for the root response from the Api.
+ */
 public class ApiResponse {
 
     @SerializedName("title")
